@@ -1,0 +1,46 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* utility */
+.bg-azzurro{
+background-color: rgb(149, 248, 248);
+}
+
+.bg-blu{
+background-color: blue;
+}
+
+.bg-rosa{
+background-color: palevioletred;
+}
+
+.bg-arancione{
+background-color: orange;
+}
+
+.bg-verde{
+background-color: green;
+}
+
+
+/* flexbox */
+
+.flex{
+    display:flex;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+/* layout */
+
+header{
+    height: 60px;
+}
