@@ -88,6 +88,7 @@ header{
     align-items: center;
 }
 
+
 .ret{
     width: 50%;
     height: 80%;
@@ -138,4 +139,28 @@ li{
 .sezione.padding{
     padding-bottom: 30px;
     padding-top: 10px;
+}
+
+/* footer */
+
+footer{
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.border{
+    border-top: 1px solid rgb(182, 180, 180);
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+
+.footer{
+    height: 70%;
+    width: 70%;
+    align-items: center;
+}
+
+.padding{
+    padding: 3px;
+    font-size: small;
 }
