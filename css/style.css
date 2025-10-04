@@ -10,6 +10,9 @@
 background-color: rgb(149, 248, 248);
 }
 
+.bg-celeste{
+    background: lightskyblue;
+}
 .bg-blu{
 background-color: blue;
 }
@@ -26,7 +29,13 @@ background-color: orange;
 background-color: green;
 }
 
+.bg-grigio{
+    background-color: rgb(182, 180, 180);
+}
 
+.altezza{
+    height: 400px;
+}
 /* flexbox */
 
 .flex{
@@ -37,10 +46,42 @@ background-color: green;
     justify-content: space-between;
     align-items: center;
     height: 50%;
+    width: 70%;
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
 }
 
 /* layout */
 
 header{
     height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ret{
+    width: 50%;
+    height: 80%;
+}
+
+.sezione{
+    
+    height: 80%;
+    width: 60%;
+}
+.bg-celeste.sezione{
+    width: 60%;
+    height: 80%;
+}
+
+.bg-rosa.sezione{
+    width: 40%;
+    height: 80%;
 }
