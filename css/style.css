@@ -58,6 +58,9 @@ background-color: green;
     align-items: center;
 }
 
+.order{
+    order: 1;
+}
 /* layout */
 
 header{
