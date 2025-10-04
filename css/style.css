@@ -117,3 +117,25 @@ header{
     width: 40%;
     
 }
+
+
+/* sezione a 5 colonne */
+
+.bg-corallo.sezione{
+    width: 30%;
+    /* height: 100%; */
+}
+
+.bg-turchese.sezione{
+    width: 70%;
+}
+
+li{
+    display: flex;
+    flex-basis: 25%;
+}
+
+.sezione.padding{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
