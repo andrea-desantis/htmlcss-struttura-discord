@@ -33,8 +33,27 @@ background-color: green;
     background-color: rgb(182, 180, 180);
 }
 
+.bg-scuro{
+    background-color: rgb(56, 56, 56);
+}
+
+.bg-corallo{
+    background: lightcoral;
+}
+
+.bg-turchese{
+    background: teal;
+}
+.bg-acqua{
+    background: rgb(96, 238, 157);
+}
 .altezza{
     height: 400px;
+}
+.alt-grande{
+    height: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 /* flexbox */
 
@@ -74,17 +93,27 @@ header{
     height: 80%;
 }
 
+.ret-grande{
+    width: 70%;
+    height: 100%;
+}
+
 .sezione{
-    
-    height: 80%;
-    width: 60%;
+    width: 70%;    
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bg-blu.altezza{
+    height: 250px;
 }
 .bg-celeste.sezione{
     width: 60%;
-    height: 80%;
+    
 }
 
 .bg-rosa.sezione{
     width: 40%;
-    height: 80%;
+    
 }
